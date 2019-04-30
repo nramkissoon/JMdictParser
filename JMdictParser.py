@@ -99,7 +99,7 @@ def fill_in_jlpt(compound_dict):
         jlpt_final = []
         for jlpt in jlpt_list:
             if jlpt == ' ':
-                jlpt_final.append('not listed in JLPT')
+                jlpt_final.append('N/A')
             else:
                 jlpt_final.append(jlpt)
         compound_dict[i]["jlpt"] = jlpt_final
